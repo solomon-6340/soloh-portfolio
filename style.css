@@ -431,8 +431,32 @@ transform:scale(1.2);
 }
 }
 @media(max-width:768px){
-  nav ul { flex-direction: column; gap: 15px; }
-  #home h1 { font-size: 40px; }
-  #home h3 { font-size: 20px; }
-  .skills-container, .projects-container { flex-direction: column; align-items: center; }
+
+nav ul{
+flex-direction:column;
+gap:15px;
 }
+
+#home h1{
+font-size:40px;
+}
+
+#home h3{
+font-size:20px;
+}
+
+.skills-container,
+.projects-container{
+flex-direction:column;
+align-items:center;
+}
+
+.hero-grid{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+section{
+padding:60px 20px;
+}
+
